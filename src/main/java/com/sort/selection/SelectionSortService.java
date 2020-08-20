@@ -1,7 +1,6 @@
 package com.sort.selection;
 
 import java.time.ZonedDateTime;
-import java.util.Arrays;
 import java.util.Random;
 import java.util.stream.IntStream;
 import org.springframework.stereotype.Service;
@@ -28,7 +27,7 @@ public class SelectionSortService {
     long endEpochMilli = ZonedDateTime.now().toInstant().toEpochMilli();
     System.out.println("选择排序end：" + endEpochMilli);
     //System.out.println(Arrays.toString(array));
-    System.out.println("选择排序耗时：" + String.valueOf(endEpochMilli - startEpochMilli));
+    System.out.println("选择排序耗时：" + (endEpochMilli - startEpochMilli));
   }
 
 }

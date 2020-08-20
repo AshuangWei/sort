@@ -25,6 +25,6 @@ public class BubbleSortService {
     long endEpochMilli = ZonedDateTime.now().toInstant().toEpochMilli();
     System.out.println("冒泡排序end：" + endEpochMilli);
     //System.out.println(Arrays.toString(array));
-    System.out.println("冒泡排序耗时：" + String.valueOf(endEpochMilli - startEpochMilli));
+    System.out.println("冒泡排序耗时：" + (endEpochMilli - startEpochMilli));
   }
 }
